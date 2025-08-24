@@ -1,4 +1,19 @@
 package Punto2;
 
-public class Test {
+import java.time.LocalDateTime;
+
+public class Test extends Tarea {
+
+    //Constructor
+
+    public Test(LocalDateTime fechaInicio, LocalDateTime fechaFin, String responsable) {
+        super(fechaInicio, fechaFin, responsable);
+    }
+
+    @Override
+    public String tareaAsignada() {
+        return "Testeo de calidad del software";
+    }
+
+
 }

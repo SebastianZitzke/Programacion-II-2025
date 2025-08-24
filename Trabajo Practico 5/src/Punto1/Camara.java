@@ -1,4 +1,6 @@
-public class Camara extends Dispositivos{
+package Punto1;
+
+public class Camara extends Dispositivos {
 
     public Camara(String nombre) {
         super(nombre);
